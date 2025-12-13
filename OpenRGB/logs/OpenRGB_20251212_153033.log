@@ -1,0 +1,45 @@
+    OpenRGB v0.9+ (1.0rc2)
+    Commit:  from 
+    Launched: 20251212_153033
+====================================================================================================
+
+53    |Info:    [ResourceManager] Saving detector settings
+55    |Info:    [ResourceManager] Initializing HID interfaces: Success
+55    |Info:    ------------------------------------------------------
+55    |Info:    |               Start device detection               |
+55    |Info:    ------------------------------------------------------
+65    |Info:    ------------------------------------------------------
+65    |Info:    |             Detecting I2C interfaces               |
+65    |Info:    ------------------------------------------------------
+65    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-3 Device 10DE:2504 Subsystem: 1043:8816
+66    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-1 Device 10DE:2504 Subsystem: 1043:8816
+66    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-4 Device 10DE:2504 Subsystem: 1043:8816
+66    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-2 Device 10DE:2504 Subsystem: 1043:8816
+66    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-0 Device 10DE:2504 Subsystem: 1043:8816
+66    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-5 Device 10DE:2504 Subsystem: 1043:8816
+66    |Info:    ------------------------------------------------------
+66    |Info:    |               Detecting I2C devices                |
+66    |Info:    ------------------------------------------------------
+68    |Info:    ------------------------------------------------------
+68    |Info:    |            Detecting I2C DIMM modules              |
+68    |Info:    ------------------------------------------------------
+68    |Info:    ------------------------------------------------------
+68    |Info:    |               Detecting I2C PCI devices            |
+68    |Info:    ------------------------------------------------------
+69    |Info:    ------------------------------------------------------
+69    |Info:    |               Detecting HID devices                |
+69    |Info:    ------------------------------------------------------
+70    |Info:    [Logitech G213] Registering RGB controller
+70    |Info:    ------------------------------------------------------
+70    |Info:    |            Detecting libusb HID devices            |
+70    |Info:    ------------------------------------------------------
+137   |Info:    ------------------------------------------------------
+137   |Info:    |              Detecting other devices               |
+137   |Info:    ------------------------------------------------------
+157   |Info:    [ResourceManager] Calling Post-detection callbacks
+157   |Info:    ------------------------------------------------------
+157   |Info:    |                Detection completed                 |
+157   |Info:    ------------------------------------------------------
+158   |Dialog:  <h2>Some internal devices may not be detected:</h2><p>One or more I2C or SMBus interfaces failed to initialize.</p><p><b>RGB DRAM modules, some motherboards' onboard RGB lighting, and RGB Graphics Cards, will not be available in OpenRGB</b> without I2C or SMBus.</p><h4>How to fix this:</h4><p>On Linux, this is usually because the i2c-dev module is not loaded.</p><p>You must load the i2c-dev module along with the correct i2c driver for your motherboard. This is usually i2c-piix4 for AMD systems and i2c-i801 for Intel systems.</p><p>See <a href='https://help.openrgb.org/'>help.openrgb.org</a> for additional troubleshooting steps if you keep seeing this message.<br></p><h3>If you are not using internal RGB on a desktop this message is not important to you.</h3>
+22451 |Info:    [ProfileManager] Found file: RGB_1.orp attempting to validate header
+22451 |Info:    [ProfileManager] Valid v5 profile found for RGB_1

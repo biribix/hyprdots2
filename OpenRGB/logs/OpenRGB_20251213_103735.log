@@ -1,0 +1,38 @@
+    OpenRGB v0.9+ (1.0rc2)
+    Commit:  from 
+    Launched: 20251213_103735
+====================================================================================================
+
+0     |Info:    [ProfileManager] Found file: RGB_1.orp attempting to validate header
+0     |Info:    [ProfileManager] Valid v5 profile found for RGB_1
+53    |Info:    [ResourceManager] Initializing HID interfaces: Success
+53    |Info:    ------------------------------------------------------
+53    |Info:    |               Start device detection               |
+53    |Info:    ------------------------------------------------------
+62    |Info:    ------------------------------------------------------
+62    |Info:    |             Detecting I2C interfaces               |
+62    |Info:    ------------------------------------------------------
+62    |Info:    ------------------------------------------------------
+62    |Info:    |               Detecting I2C devices                |
+62    |Info:    ------------------------------------------------------
+62    |Info:    ------------------------------------------------------
+62    |Info:    |            Detecting I2C DIMM modules              |
+62    |Info:    ------------------------------------------------------
+62    |Info:    ------------------------------------------------------
+62    |Info:    |               Detecting I2C PCI devices            |
+62    |Info:    ------------------------------------------------------
+63    |Info:    ------------------------------------------------------
+63    |Info:    |               Detecting HID devices                |
+63    |Info:    ------------------------------------------------------
+64    |Info:    [Logitech G213] Registering RGB controller
+64    |Info:    ------------------------------------------------------
+64    |Info:    |            Detecting libusb HID devices            |
+64    |Info:    ------------------------------------------------------
+122   |Info:    ------------------------------------------------------
+122   |Info:    |              Detecting other devices               |
+122   |Info:    ------------------------------------------------------
+142   |Info:    [ResourceManager] Calling Post-detection callbacks
+142   |Info:    ------------------------------------------------------
+142   |Info:    |                Detection completed                 |
+142   |Info:    ------------------------------------------------------
+143   |Info:    [ProfileManager] Profile loading: Succeeded for Logitech G213 @ HID: /dev/hidraw1
