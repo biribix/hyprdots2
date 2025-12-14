@@ -19,7 +19,7 @@ polkit-kde-agent
 
 Dependencias
 ```
-sudo pacman -S cava vscode viewnior nwg-look gnome-themes-extra fastfetch openrgb hyprshot waybar waypaper pavucontrol alsa-utils nm-connection-editor bluez bluez-utils blueman jre-openjdk btop wine winetricks
+sudo pacman -S cava vscode viewnior nwg-look gnome-themes-extra fastfetch openrgb hyprshot waybar pavucontrol alsa-utils nm-connection-editor bluez bluez-utils blueman jre-openjdk btop wine winetricks
 ```
 mplayer or mpv
 starship (importante) , playerctl
@@ -34,7 +34,7 @@ libpulse 17.0+r93+gbe2efb69b-1)
 
 With AUR
 ```
-yay -S zen-browser-zen mkinitcpio-numlock sddm-silent-theme zsh-theme-powerlevel10k whitesur-icon-theme swww mpvpaper
+yay -S zen-browser-zen mkinitcpio-numlock sddm-silent-theme zsh-theme-powerlevel10k whitesur-icon-theme swww mpvpaper waypaper
 ```
 White-cursors: ``https://github.com/vinceliuice/WhiteSur-cursors.git``
 
