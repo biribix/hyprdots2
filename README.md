@@ -8,7 +8,7 @@ git
 nvidia-dkms, nvidia-utils, nvidia-settings, lib32-nvidia-utils, linux-headers
 base, base-devel, amd-ucode
 grub, efibootmgr
-nerd-fonts
+nerd-fonts, noto-fonts, noto-fonts-emoji
 nautilus
 rofi
 openssh
