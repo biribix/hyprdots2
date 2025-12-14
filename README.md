@@ -19,7 +19,7 @@ polkit-kde-agent
 
 Dependencias
 ```
-sudo pacman -S cava vscode viewnior nwg-look gnome-themes-extra fastfetch code openrgb hyprshot waybar waypaper pavucontrol alsa-utils nm-connection-editor bluez bluez-utils blueman jre-openjdk ttf-nerd-fonts-symbols btop wine winetricks
+sudo pacman -S cava vscode viewnior nwg-look gnome-themes-extra fastfetch openrgb hyprshot waybar waypaper pavucontrol alsa-utils nm-connection-editor bluez bluez-utils blueman jre-openjdk ttf-nerd-fonts-symbols btop wine winetricks
 ```
 mplayer or mpv
 starship (importante) , playerctl
