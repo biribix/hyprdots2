@@ -14,6 +14,7 @@ rofi
 openssh
 xdg-desktop-portal-hyprland
 qt5-wayland, qt6-wayland
+polkit-kde-agent
 
 
 Dependencias
